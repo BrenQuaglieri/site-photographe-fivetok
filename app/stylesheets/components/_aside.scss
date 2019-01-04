@@ -1,0 +1,167 @@
+@media all and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 10px;
+    &__nav {
+      &-top{
+        margin-top: 50px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+        }
+      }
+      &-bot{
+        margin-top: 50px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+            font-weight: bold;
+          }
+        }
+      }
+      &-links {
+        margin-top: 430px;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+        font-weight: bold;
+      }
+      &-copy {
+        font-size: 0.8em;
+      }
+    }
+  }
+  .sidebarmobile {
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 10px;
+    &__nav {
+      &-top{
+        margin-top: 15px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 1.8em;
+            font-weight: bold;
+            .close-menu {
+              display: none;
+              font-size: 1.1em;
+              &--visible {
+                display: flex;
+                margin-top: 19px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+      &-links {
+        margin-top: 800px;
+        margin-bottom: 10px;
+        font-size: 1.8em;
+        font-weight: bold;
+      }
+      &-copy {
+        font-size: 1.8em;
+      }
+    }
+  }
+}
+
+
+
+
+@media all and (min-width:1025px) {
+  .sidebar {
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 10px;
+    &__nav {
+      &-top{
+        margin-top: 50px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+        }
+      }
+      &-bot{
+        margin-top: 50px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+            font-weight: bold;
+          }
+        }
+      }
+      &-links {
+        margin-top: 430px;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+        font-weight: bold;
+      }
+      &-copy {
+        font-size: 0.8em;
+      }
+    }
+  }
+  .sidebarmobile {
+    display: none;
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 10px;
+    &__nav {
+      &-top{
+        margin-top: 50px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+        }
+      }
+      &-bot{
+        margin-top: 50px;
+        ul {
+          padding: 0;
+          li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+            font-weight: bold;
+          }
+        }
+      }
+      &-links {
+        margin-top: 430px;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+        font-weight: bold;
+      }
+      &-copy {
+        font-size: 0.8em;
+      }
+    }
+  }
+}
